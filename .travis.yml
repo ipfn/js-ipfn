@@ -1,7 +1,25 @@
-language: go
-go: 
- - 1.9.2
+language: node_js
+
+node_js:
+  - "10"
+
+cache:
+  directories:
+    - projects/cell-builder/node_modules
+    - projects/cell-cid/node_modules
+    - projects/cell-codecs/node_modules
+    - projects/cell-pb/node_modules
+    - projects/runtime/node_modules
+    - projects/synaptic-types/node_modules
+    - projects/typescript-cell/node_modules
+    - projects/util/node_modules
 
 script:
- - go get github.com/stretchr/testify/assert
- - go test -v ./go/...
+ - cd projects/cell-builder && npm install && npm test
+ - cd projects/cell-cid && npm install && npm test
+ - cd projects/cell-codecs && npm install && npm test
+ - cd projects/cell-pb && npm install && npm test
+ - cd projects/runtime && npm install && npm test
+ - cd projects/synaptic-types && npm install && npm test
+ - cd projects/typescript-cell && npm install && npm test
+ - cd projects/util && npm install && npm test
