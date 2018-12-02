@@ -1,21 +1,19 @@
-# @ipfn/cell-pb: JavaScript IPFN Cell Protocol Buffers codec
+# @ipfn/runtime: IPFN runtime JavaScript
 
 [![IPFN project](https://img.shields.io/badge/project-IPFN-blue.svg?style=flat-square)](https://github.com/ipfn)
-[![npm](https://img.shields.io/npm/v/@ipfn/cell-pb.svg?maxAge=8640&style=flat-square)](https://www.npmjs.com/package/@ipfn/cell-pb)
+[![npm](https://img.shields.io/npm/v/@ipfn/runtime.svg?maxAge=8640&style=flat-square)](https://www.npmjs.com/package/@ipfn/runtime)
 
-IPFN Cell Protocol Buffers codec in JavaScript.
+empty
+
+IPFN runtime implementation in JavaScript.
 
 ## Install
 
 In node.js project directory run:
 
 ```console
-$ npm install --save @ipfn/cell-pb
+$ npm install --save @ipfn/runtime
 ```
-
-## See also
-
-* [@ipfn/cell-codecs](https://github.com/ipfn/ipfn/tree/master/src/js/cell-codecs)
 
 ## License
 

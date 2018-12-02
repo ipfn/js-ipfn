@@ -13,10 +13,10 @@
   "contributors": [
     "Łukasz Kurowski <crackcomm@gmail.com>"
   ],
-  "website": "https://github.com/ipfn/ipfn/tree/master/js/cell-cid",
+  "website": "https://github.com/ipfn/ipfn/tree/master/src/js/cell-cid",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ipfn/ipfn/tree/master/js/cell-cid"
+    "url": "https://github.com/ipfn/ipfn/tree/master/src/js/cell-cid"
   },
   "dependencies": {
     "@ipfn/cell": "0.0.2",
@@ -67,7 +67,7 @@
   },
   "devDependencies": {
     "@types/jest": "^21.1.0",
-    "@types/node": "^8.0.51",
+    "@types/node": "^10.12.9",
     "colors": "^1.1.2",
     "coveralls": "^3.0.0",
     "cross-env": "^5.1.1",

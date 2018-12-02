@@ -1,21 +1,17 @@
-# @ipfn/cell-pb: JavaScript IPFN Cell Protocol Buffers codec
+# @ipfn/base32: IPFN base32 encoding for JavaScript
 
 [![IPFN project](https://img.shields.io/badge/project-IPFN-blue.svg?style=flat-square)](https://github.com/ipfn)
-[![npm](https://img.shields.io/npm/v/@ipfn/cell-pb.svg?maxAge=8640&style=flat-square)](https://www.npmjs.com/package/@ipfn/cell-pb)
+[![npm](https://img.shields.io/npm/v/@ipfn/base32.svg?maxAge=8640&style=flat-square)](https://www.npmjs.com/package/@ipfn/base32)
 
-IPFN Cell Protocol Buffers codec in JavaScript.
+Javascript base32 alphabet specific for IPFN encoding.
 
 ## Install
 
 In node.js project directory run:
 
 ```console
-$ npm install --save @ipfn/cell-pb
+npm install --save @ipfn/base32
 ```
-
-## See also
-
-* [@ipfn/cell-codecs](https://github.com/ipfn/ipfn/tree/master/src/js/cell-codecs)
 
 ## License
 
